@@ -137,10 +137,16 @@ iframe {
   iframe,
   section {
     width: 49%;
-    height: 150px;
-    margin-bottom: 0px;
+    /* margin-bottom: none; */
     display: inline-block;
     border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .row {
+    display: flex;
+    justify-content: center;
   }
 }
 /* TABELLE */
